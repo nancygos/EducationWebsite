@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EducationWebsite.com</title>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="navBar">
+            <div class="logo">EducationWebsite</div>
+            <input type="search" name="search" class="search" placeholder="Search...">
+            <div class="navBtn">
+                <button class="btn">Donate</button>
+                <button class="btn">Login</button>
+                <button class="btn">SignUp</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <div class="homeContainer">
+        <div class="left">
+            <img src="learning.jpg" alt="learning lady" class="learning">
+        </div>
+
+        <div class="right">
+            <p>“Anyone who stops learning is old, <br> whether at twenty or eighty. <br> Anyone who keeps learning stays young. <br> The greatest thing in life is to keep <br> your mind young.” <br><br> – Henry Ford</p>
+        </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="contentContainer">
+        <div class="movingWords">
+            <span id="text"></span>
+            <span id="cursor"> &nbsp;</span>
+        </div>
+
+        <div class="cards">
+            <div class="card">
+                <div class="card1">
+                    <img src="coding.jpg" width="280" height="200">
+                    <br><br>
+                    <h3>Free Video Course</h3>
+                    <br>
+                    <p style="text-align: center;" >Get your programming career started with these free video courses. Source code is available with all the videos for amazing learning experience</p>
+                    <br>
+                    <button class="rowButton" onclick="location.href='https://www.codewithharry.com/videos' " >Browse video Cources</button>
+                    <br>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card2">
+                    <img src="article.jpg" width="280" height="200">
+                    <br><br>
+                    <h3>Coding Article</h3>
+                    <br>
+                    <p style="text-align: center;">Some of the latest coding information compiled in the form of coding articles. Keep your programming knowledge up to date with these articles.</p>
+                    <br>
+                    <button class="rowButton" onclick="location.href='https://www.codewithharry.com/blog'">Go to Blog</button>
+                    <br>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card3">
+                    <img src="contact.jpg" width="280" height="200">
+                    <br><br>
+                    <h3>Contact Me</h3>
+                    <br>
+                    <p style="text-align: center;">Learn programming from these free courses. Examples are available with these tutorials. You can contact me for any doubt and I will get back to you!</p>
+                    <br>
+                    <button class="rowButton" onclick="location.href='https://www.thapatechnical.com/search/label/TechEssay'">Contact Me </button>
+                    <br>
+                </div>
+            </div>
+        </div>
+
+        <!-- LATEST VIDEOS -->
+        <div class="latest">
+
+            <h1 style="color: rgb(141, 137, 137); font-family: Arial, Helvetica, sans-serif; margin: 24px; padding: 10px;" >Latest Videos:</h1>       
+            
+            <!--Embeded YouTube Videos -->
+    
+            <iframe width="380" height="215" src="https://www.youtube.com/embed/HPMhaZzKaRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 10px 20px 20px 50px;"></iframe>
+            
+            <iframe width="380" height="215" src="https://www.youtube.com/embed/Qejw2bHfYDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 10px 20px 20px 50px;"></iframe>
+            
+            <iframe width="380" height="215" src="https://www.youtube.com/embed/Qejw2bHfYDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="margin: 10px 10px 20px 50px;"></iframe>
+           
+            <!-- Click here Link -->
+            <h3 class="link" > <a href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA" target="_blank">Click here for more videos</a></h3>
+            <br><br>
+        </div>
+    
+        
+    </div>
+    
+    <!-- FOOTER -->
+    <div class="copyRight" style="background-color: rgb(63, 61, 61); ">
+        <h4 style="text-align: center; padding: 15px; color: rgb(233, 229, 229);font-family: Arial, Helvetica, sans-serif; " >Copyright © EducationWebsite.com</h4>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
